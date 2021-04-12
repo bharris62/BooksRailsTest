@@ -17,11 +17,11 @@ describe 'Books API', type: :request do
       expect(response_body)
         .to eq(
           [{
-             'id' => 1,
+            'id' => 1,
              'title' => '1984',
              'author_name' => 'George Orwell',
              'author_age' => 60
-           },
+          },
            {
              'id' => 2,
              'title' => 'HP Sorcers Stone',
@@ -39,11 +39,11 @@ describe 'Books API', type: :request do
       expect(response_body)
         .to eq(
           [{
-             'id' => 1,
+            'id' => 1,
              'title' => '1984',
              'author_name' => 'George Orwell',
              'author_age' => 60
-           }]
+          }]
             )
     end
 
@@ -55,11 +55,11 @@ describe 'Books API', type: :request do
       expect(response_body)
         .to eq(
           [{
-             'id' => 2,
+            'id' => 2,
              'title' => 'HP Sorcers Stone',
              'author_name' => 'JK Rowling',
              'author_age' => 78
-           }]
+          }]
             )
     end
   end
